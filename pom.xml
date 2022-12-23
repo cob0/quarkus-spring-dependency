@@ -12,7 +12,7 @@
 
 	<groupId>com.acme</groupId>
 	<artifactId>spring-boot-template</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.2-SNAPSHOT</version>
 	<name>spring-boot-template</name>
 	<description>spring-boot-template</description>
 
