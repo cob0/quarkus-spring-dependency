@@ -1,15 +1,16 @@
 package com.cobo.component;
 
-import org.springframework.beans.factory.annotation.Qualifier;
-import org.springframework.context.annotation.Bean;
-import org.springframework.stereotype.Component;
 import org.springframework.web.client.RestTemplate;
 
-@Component
+import javax.enterprise.inject.Produces;
+import javax.inject.Named;
+import javax.inject.Singleton;
+
+@Singleton
 public class RestTemplateContext {
 
-    @Bean
-    @Qualifier("whateverRestTemplate")
+    @Produces
+    @Named("whateverRestTemplate")
     public RestTemplate restTemplate() {
         return new RestTemplate();
     }
