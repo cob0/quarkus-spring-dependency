@@ -24,7 +24,7 @@
 		<mapstruct.version>1.5.3.Final</mapstruct.version>
 		<!-- build dependency version properties -->
 		<maven.compiler.plugin.version>3.8.1</maven.compiler.plugin.version>
-		<maven.surefire.version>2.22.2</maven.surefire.version>
+		<maven.surefire.version>3.0.0</maven.surefire.version>
 		<maven.failsafe.plugin.version>2.22.2</maven.failsafe.plugin.version>
 		<lombok.mapstruct.binding.version>0.2.0</lombok.mapstruct.binding.version>
 		<skipTests>false</skipTests>
